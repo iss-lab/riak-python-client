@@ -42,14 +42,14 @@ setup(
     description='Python client for Riak',
     long_description=long_description,
     zip_safe=True,
-    options={'easy_install': {'allow_hosts': 'pypi.python.org'}},
+    options={'easy_install': {'allow_hosts': ['pypi.python.org','pypi.org']}},
     include_package_data=True,
     license='Apache 2',
     platforms='Platform Independent',
     author='Basho Technologies',
     author_email='clients@basho.com',
     test_suite='riak.tests.suite',
-    url='https://github.com/basho/riak-python-client',
+    url='https://github.com/iss-lab/riak-python-client',
     cmdclass={
         'build_messages': build_messages,
         'setup_timeseries': setup_timeseries
@@ -61,5 +61,7 @@ setup(
                  'Programming Language :: Python :: 3.3',
                  'Programming Language :: Python :: 3.4',
                  'Programming Language :: Python :: 3.5',
+                 'Programming Language :: Python :: 3.6',
+                 'Programming Language :: Python :: 3.7',
                  'Topic :: Database']
     )
