@@ -34,7 +34,7 @@ except(IOError, ImportError):
 
 setup(
     name='riak',
-    version=get_version(),
+    version=get_version()+'-py3.7',
     packages=find_packages(),
     requires=requires,
     install_requires=install_requires,
@@ -57,11 +57,6 @@ setup(
     classifiers=['License :: OSI Approved :: Apache Software License',
                  'Intended Audience :: Developers',
                  'Operating System :: OS Independent',
-                 'Programming Language :: Python :: 2.7',
-                 'Programming Language :: Python :: 3.3',
-                 'Programming Language :: Python :: 3.4',
-                 'Programming Language :: Python :: 3.5',
-                 'Programming Language :: Python :: 3.6',
                  'Programming Language :: Python :: 3.7',
                  'Topic :: Database']
     )
