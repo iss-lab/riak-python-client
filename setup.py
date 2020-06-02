@@ -46,9 +46,6 @@ setup(
     include_package_data=True,
     license='Apache 2',
     platforms='Platform Independent',
-    author='Basho Technologies',
-    author_email='clients@basho.com',
-    test_suite='riak.tests.suite',
     url='https://github.com/iss-lab/riak-python-client',
     cmdclass={
         'build_messages': build_messages,

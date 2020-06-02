@@ -2,7 +2,7 @@
 
 ## Build Status
 
-[![Build Status](https://travis-ci.org/basho/riak-python-client.svg?branch=master)](https://travis-ci.org/basho/riak-python-client)
+**!! This is work in progress .. it should now work with Python 3.7 .. but not verified and tested in all details**
 
 ## Documentation
 
