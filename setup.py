@@ -18,8 +18,8 @@ if sys.version_info[:3] <= (3, 0, 0):
     install_requires.append('protobuf >=2.4.1, <2.7.0')
     requires.append('protobuf(>=2.4.1, <2.7.0)')
 else:
-    install_requires.append('python3_protobuf >=2.4.1, <2.6.0')
-    requires.append('python3_protobuf(>=2.4.1, <2.6.0)')
+    install_requires.append('protobuf >=3.12.2')
+    requires.append('python3_protobuf(>=3.12.2)')
 
 with codecs.open('README.md', 'r', 'utf-8') as f:
     readme_md = f.read()

@@ -43,8 +43,8 @@ pb_compile: pb_clean
 ifeq ($(PROTOC_VERSION),)
 	$(error The protoc command is required to parse proto files)
 endif
-ifneq ($(PROTOC_VERSION),libprotoc 2.5.0)
-	$(error protoc must be version 2.5.0)
+ifneq ($(PROTOC_VERSION),libprotoc 3.11.4)
+	$(error protoc must be version 3.11.4)
 endif
 	@echo "==> Python (compile)"
 	@protoc -Iriak_pb/src --python_out=riak/pb riak_pb/src/*.proto
